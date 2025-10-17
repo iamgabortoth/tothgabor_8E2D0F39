@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+}
+
+.egytelefon {
+    float: left;
+    margin: 20px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+}
+
+.egytelefon:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.ar {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.egytelefon img {
+    display: block;
+    height: auto;
+    /* margin: 0 auto 10px; */
+    width: auto;
+    height: 400px;
+    margin: auto;
+}
+.egytelefon h4 {
+    color: gray;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+#kosar {
+    border: 2px solid darkgray;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    width: max-content;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: lightgreen;
+}
+.fizet_gomb {
+    background-color: green;
+    width: 130px;
+    margin-top: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
