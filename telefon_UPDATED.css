@@ -1,0 +1,94 @@
+body {
+    margin-top: 70px;
+    background-color: lightgrey;
+}
+
+.egytelefon {
+    float: left;
+    margin: 20px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+
+.egytelefon:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.ar {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+.egytelefon img {
+    display: block;
+    height: auto;
+    width: auto;
+    height: 400px;
+    margin: auto;
+}
+.egytelefon h4 {
+    color: orangered;
+    font-size: large;
+}
+
+#kosar {
+    border: 2px solid darkgray;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    width: max-content;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+div.plusz {
+    width: max-content;
+    float: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    font-size: larger;
+    margin: 150px auto 0 auto;
+}
+.fizetes {
+    font-size: larger;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+a.navbar-brand {
+    font-size: xx-large;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.nav-link {
+    font-size: larger;
+    font-weight: bold;
+    color: orange;
+}
